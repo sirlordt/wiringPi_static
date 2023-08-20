@@ -99,10 +99,12 @@ if [ x$1 = "xdebian" ]; then
   exit
 fi
 
-if [ x$1 != "x" ]; then
-  echo "Usage: $0 [clean | uninstall]"
-  exit 1
-fi
+#echo x$1
+
+#if [ x$1 != "x" ]; then
+#  echo "Usage: $0 [clean | uninstall]"
+#  exit 1
+#fi
 
   echo "wiringPi Build script"
   echo "====================="
